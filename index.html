@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Tavola - Restaurante</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            color: #3b2720;
+        }
+
+        header {
+            background-color: #6b2d2d;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 45px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #3b1b1b;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f5c16c;
+        }
+
+        .presentacion {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .presentacion h2 {
+            font-size: 35px;
+            color: #6b2d2d;
+        }
+
+        .presentacion p {
+            font-size: 19px;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .categorias {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 30px;
+        }
+
+        .categoria {
+            background-color: white;
+            width: 250px;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .categoria img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .categoria h3 {
+            color: #6b2d2d;
+        }
+
+        .categoria a {
+            display: inline-block;
+            background-color: #6b2d2d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        .categoria a:hover {
+            background-color: #a34b4b;
+        }
+
+        footer {
+            background-color: #3b1b1b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bella Tavola</h1>
+    <p>Sabores que hacen de cada momento algo especial</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="entradas.html">Entradas</a>
+    <a href="principales.html">Platos principales</a>
+    <a href="guarniciones.html">Guarniciones</a>
+    <a href="postres.html">Postres</a>
+    <a href="bebidas.html">Bebidas</a>
+    <a href="quienes-somos.html">Quiénes somos</a>
+</nav>
+
+<section class="presentacion">
+    <h2>Bienvenidos a Bella Tavola</h2>
+
+    <p>
+        En Bella Tavola ofrecemos una experiencia gastronómica donde
+        los sabores, la calidad y la tradición se combinan para crear
+        momentos inolvidables. Explorá nuestro menú y descubrí
+        nuestras diferentes opciones.
+    </p>
+</section>
+
+<section class="categorias">
+
+    <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?auto=format&fit=crop&w=600&q=80">
+        <h3>Entradas</h3>
+        <p>Opciones deliciosas para comenzar tu experiencia.</p>
+        <a href="entradas.html">Ver entradas</a>
+    </div>
+
+    <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80">
+        <h3>Platos principales</h3>
+        <p>Platos preparados con ingredientes seleccionados.</p>
+        <a href="principales.html">Ver platos</a>
+    </div>
+
+    <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80">
+        <h3>Guarniciones</h3>
+        <p>El acompañamiento perfecto para tu plato.</p>
+        <a href="guarniciones.html">Ver guarniciones</a>
+    </div>
+
+    <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=600&q=80">
+        <h3>Postres</h3>
+        <p>Un toque dulce para terminar la comida.</p>
+        <a href="postres.html">Ver postres</a>
+    </div>
+
+    <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80">
+        <h3>Bebidas</h3>
+        <p>Opciones refrescantes para acompañar tu comida.</p>
+        <a href="bebidas.html">Ver bebidas</a>
+    </div>
+
+</section>
+
+<footer>
+    <p>Integrantes: Agostina Bonfanti | Isabella Benavides</p>
+    <p>© 2026 Bella Tavola</p>
+</footer>
+
+</body>
+</html>
